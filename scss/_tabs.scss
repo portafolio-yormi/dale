@@ -1,0 +1,21 @@
+.tab{
+    // display: inline;
+    font-weight: 600;
+    color: $blue-dark;
+    padding: 12px 20px;
+    border: 1px solid $blue-dark;
+    border-radius: 8px;
+    text-align: center;
+    a{
+        text-decoration: none;
+        color: $blue-dark;
+    }
+}
+.t-active{
+    color: $white !important;
+    background: $violet;
+    border: $violet;
+    a{
+        color: $white;
+    }
+}
