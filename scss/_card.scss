@@ -1,0 +1,42 @@
+.card{
+    position: relative;
+    margin: .9rem .2rem;
+    border-radius: 10px;
+    box-shadow: 0px 3px 12px -2px $black;
+    -webkit-box-shadow: 0px 3px 12px -2px $black; 
+    &_img{
+        width: 100%;
+        height: auto;
+        border-radius: 10px 10px 0 0;
+    }
+    &_body{
+        padding: .9rem;
+        background: $white;
+        border-radius: 0 0 10px 10px ;
+        &-title{
+            color: $blue-dark;
+            font-size: 1.4rem;
+            font-weight: 700;
+            margin: 0;
+        }
+        &-text{
+            color: lighten($black, 10%);
+            line-height: 21px;
+            font-size: .9rem;
+        }
+        &-link{
+            text-decoration: none;
+            color: $violet;
+            font-size: .8rem;
+            font-weight: 600;
+        }
+    }
+    &_tag{
+        position: absolute;
+        font-size: .8rem;
+        color: $white;
+        padding: .8rem 1rem;
+        border-radius: 0 0 10px 10px;
+        right: 20px;
+    }
+}
